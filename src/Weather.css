@@ -1,0 +1,46 @@
+.main-div{
+        margin: auto;
+        width: 300px;
+        height: 400px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 80px;
+        text-align: center; 
+        color: white;
+        box-shadow: 10px 10px #888888;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKog6RmJPK3ZtaeTb3qTdRWAyx1GynLhb5g&usqp=CAU');
+        background-size: 320px 420px;
+}
+input{
+        color: greenyellow;
+        font-size: 20px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid greenyellow;
+        text-align: center;
+        outline: none;
+}
+::placeholder {
+        color: greenyellow;
+        opacity: 1; 
+      }
+.temprature{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+}
+.city-location{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        font-size: 27px;
+}
+.min-max,
+.pressure,
+.humidity,
+.windspeed,
+.weather{
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        font-size: 22px;
+}
